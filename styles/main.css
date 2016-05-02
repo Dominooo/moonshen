@@ -221,7 +221,7 @@ body {
     transform: translate(-50%, -50%); }
   @media (max-width: 767px) {
     #index-wrapper .fullscreen-bg {
-      background: url("../content/placeholder.png") center center/cover no-repeat; }
+      background: url("../content/placeholder.jpg") center center/cover no-repeat; }
     #index-wrapper .fullscreen-bg__video {
       display: none; } }
   #index-wrapper .cta {
