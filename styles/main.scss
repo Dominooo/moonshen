@@ -47,7 +47,7 @@ body {
 
 @media (max-width: 767px) {
     .fullscreen-bg {
-        background: url('content/background.png') center center / cover no-repeat;
+        background: url('../content/background.png') center center / cover no-repeat;
     }
 
     .fullscreen-bg__video {
@@ -55,6 +55,29 @@ body {
     }
 }
 
+
+.cta {
+  @include span-columns(4);
+  @include shift(4);
+  min-height: 200px;
+  font-size: 4em;
+  text-align: center;
+  line-height: .8em;
+  margin-top: .5em;
+  a {
+    color: #fff;
+
+    &:hover {
+      color: #ddd;
+    }
+  }
+}
+
+.social {
+  height: 1em;
+  padding-right: .2em;
+  padding-top: 5px;
+}
 
 
 .centered-navigation {

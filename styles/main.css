@@ -219,10 +219,33 @@ body {
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url("content/background.png") center center/cover no-repeat; }
+    background: url("../content/background.png") center center/cover no-repeat; }
 
   .fullscreen-bg__video {
     display: none; } }
+.cta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 34.11922%;
+  min-height: 200px;
+  font-size: 4em;
+  text-align: center;
+  line-height: .8em;
+  margin-top: .5em; }
+  .cta:last-child {
+    margin-right: 0; }
+  .cta a {
+    color: #fff; }
+    .cta a:hover {
+      color: #ddd; }
+
+.social {
+  height: 1em;
+  padding-right: .2em;
+  padding-top: 5px; }
+
 .centered-navigation {
   background-color: #000000;
   border-bottom: 1px solid black;
