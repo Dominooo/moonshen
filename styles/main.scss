@@ -11,7 +11,7 @@ $tablet-wide: new-breakpoint(min-width  860px);
 $large: new-breakpoint(min-width  1024px);
 
 html {
-  background-color: #111;
+  background-color: #000;
 }
 
 body {
@@ -368,7 +368,6 @@ body {
 
 #read-wrapper {
   @include outer-container();
-  height: 100%;
 
   .page-holder {
     @include span-columns(4.5);
