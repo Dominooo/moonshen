@@ -15,7 +15,6 @@ html {
 }
 
 body {
-  @include outer-container;
   margin: 0;
   font-family: 'Amatic SC', cursive;;
   font-size: 2em;
@@ -24,7 +23,8 @@ body {
 }
 
 #index-wrapper {
-  background: url('../content/placeholder.png') center center / cover no-repeat;
+  @include outer-container();
+
 
   .fullscreen-bg {
       position: fixed;
@@ -373,7 +373,6 @@ body {
   .page-holder {
     @include span-columns(4.5);
     @include shift(3.75);
-    padding-top: 30px;
   }
 }
 
