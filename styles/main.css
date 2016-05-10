@@ -442,8 +442,7 @@ body {
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%;
-    padding-top: 30px;
-    padding-bottom: 30px; }
+    padding-top: 30px; }
     #read-wrapper .psuedo-nav:last-child {
       margin-right: 0; }
     #read-wrapper .psuedo-nav .browse, #read-wrapper .psuedo-nav .newest {
@@ -453,10 +452,9 @@ body {
       width: 48.82117%;
       background-color: #101010;
       border: 1px solid #222;
-      min-height: 100px;
       color: #ddd;
       text-align: center;
-      font-size: 2em; }
+      font-size: 1.5em; }
       #read-wrapper .psuedo-nav .browse:last-child, #read-wrapper .psuedo-nav .newest:last-child {
         margin-right: 0; }
       #read-wrapper .psuedo-nav .browse:hover, #read-wrapper .psuedo-nav .newest:hover {
@@ -532,10 +530,9 @@ body {
       width: 31.76157%;
       background-color: #101010;
       border: 1px solid #222;
-      min-height: 100px;
       color: #ddd;
       text-align: center;
-      font-size: 2em; }
+      font-size: 1.5em; }
       #page-content .psuedo-nav .browse:last-child, #page-content .psuedo-nav .newest:last-child, #page-content .psuedo-nav .index:last-child {
         margin-right: 0; }
       #page-content .psuedo-nav .browse:hover, #page-content .psuedo-nav .newest:hover, #page-content .psuedo-nav .index:hover {
